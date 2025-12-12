@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "one" {
-  count                  = 4
+  count                  = 3
   ami                    = "ami-0ecb62995f68bb549"
   instance_type          = "c7i-flex.large"
   key_name               = "Swiggy"
